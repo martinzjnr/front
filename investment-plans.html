@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/investment-plan.css">
+    <link rel="stylesheet" href="../styles/loader.css">
+</head>
+
+<body>
+      <div class="loader-container" id="loader">
+        <div class="loader">
+            <svg class="crypto-icon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"/>
+                <path d="M50 25v50M35 40l15-15 15 15M35 60l15 15 15-15"/>
+            </svg>
+        </div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <div class="logo-symbol">
+                    <!-- <span class="logo-hex"></span>
+                    <i class="fas fa-chart-line logo-icon"></i> -->
+                </div>
+            </a>
+
+            <div class="nav-mobile-actions">
+                <div class="nav-mobile-cta">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="./index.html" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="investment-plans.html" class="nav-link nav-item-active">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Investment Plans</span>
+                    </a>
+                    <a href="./how-it-works.html" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                    <a href="affliate.html" class="nav-link">
+                        <i class="fas fa-users"></i>
+                        <span>Affiliate Program</span>
+                    </a>
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Us</span>
+                    </a>
+                    <a href="faq.html" class="nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQs</span>
+                    </a>
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="testimonies.html" class="nav-link">
+                        <i class="fas fa-star"></i>
+                        <span>Testimonies</span>
+                    </a>
+                    <a href="live-earnings.html" class="nav-link">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Live Earnings</span>
+                    </a>
+
+                </div>
+                <div class="nav-cta-desktop">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- translaort -->
+    <div id="epg-google-translate" class="epg-translate-widget">
+        <div id="google_translate_element"></div>
+    </div>
+
+
+    <!-- button fixed -->
+
+
+    <div class="epg-mobile-cta-container" id="epgMobileCta">
+        <div class="epg-mobile-cta-blur"></div>
+        <div class="epg-mobile-cta-wrapper">
+            <a href="login.html" class="epg-mobile-cta-btn epg-login-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+            </a>
+            <a href="register.html" class="epg-mobile-cta-btn epg-register-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+                <div class="epg-btn-particles"></div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- logo sceting -->
+    <section class="logo-section">
+        <div class="logo-container">
+            <div class="logo-wrapper">
+                <div class="hexagon-logo">
+                    <svg viewBox="0 0 100 100">
+                        <polygon class="hex-bg" points="50 0, 93.3 25, 93.3 75, 50 100, 6.7 75, 6.7 25"></polygon>
+                        <path class="chart-icon" d="M30 70 L45 50 L60 65 L75 35"></path>
+                        <circle class="chart-point" cx="30" cy="70" r="3"></circle>
+                        <circle class="chart-point" cx="45" cy="50" r="3"></circle>
+                        <circle class="chart-point" cx="60" cy="65" r="3"></circle>
+                        <circle class="chart-point" cx="75" cy="35" r="3"></circle>
+                    </svg>
+                </div>
+                <div class="company-text">
+                    <h1>Elivate Prime Group</h1>
+                    <p>Advanced Trading Solutions</p>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="register.html" class="cta-button open-account">
+                    <span class="icon">👤</span>
+                    <span class="text">Open Account</span>
+                </a>
+                <a href="login.html" class="cta-button start-trading">
+                    <span class="icon">📈</span>
+                    <span class="text">Start Trading</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="epg_inv_hero_x9f2_wrapper">
+        <div class="epg_inv_hero_x9f2_container">
+            <div class="epg_inv_hero_x9f2_content">
+                <h1 class="epg_inv_hero_x9f2_title">Strategic Investment Solutions for Tomorrow's Growth</h1>
+                <p class="epg_inv_hero_x9f2_subtitle">Unlock the potential of your capital with our expertly curated
+                    investment plans designed for optimal returns</p>
+                <div class="epg_inv_hero_x9f2_stats">
+                    <div class="epg_inv_hero_x9f2_stat_item">
+                        <span class="epg_inv_hero_x9f2_stat_number" data-value="15890">15,890+</span>
+                        <span class="epg_inv_hero_x9f2_stat_label">Active Investors</span>
+                    </div>
+                    <div class="epg_inv_hero_x9f2_stat_item">
+                        <span class="epg_inv_hero_x9f2_stat_number" data-value="98">98%</span>
+                        <span class="epg_inv_hero_x9f2_stat_label">Success Rate</span>
+                    </div>
+                    <div class="epg_inv_hero_x9f2_stat_item">
+                        <span class="epg_inv_hero_x9f2_stat_number" data-value="250">$250M+</span>
+                        <span class="epg_inv_hero_x9f2_stat_label">Assets Managed</span>
+                    </div>
+                </div>
+                <div class="epg_inv_hero_x9f2_cta">
+                    <button class="epg_inv_hero_x9f2_primary_btn">Explore Plans</button>
+                    <a href="how-it-works.html" style="text-decoration: none;" class="epg_inv_hero_x9f2_secondary_btn">Investment Guide</a>
+                </div>
+            </div>
+            <div class="epg_inv_hero_x9f2_visual">
+                <div class="epg_inv_hero_x9f2_chart"></div>
+                <div class="epg_inv_hero_x9f2_particles"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="epg_inv_x8k2_plans_section">
+        <div class="epg_inv_x8k2_plans_container">
+            <h2 class="epg_inv_x8k2_section_title">Investment Plans</h2>
+            <p class="epg_inv_x8k2_section_subtitle">Choose Your Path to Financial Growth</p>
+
+            <div class="epg_inv_x8k2_plans_grid">
+                <!-- Basic Plan -->
+                <div class="epg_inv_x8k2_plan_card" data-plan="basic">
+                    <div class="epg_inv_x8k2_plan_header">
+                        <span class="epg_inv_x8k2_plan_badge">Basic plan</span>
+                        <h3 class="epg_inv_x8k2_plan_title">Starter Growth</h3>
+                        <div class="epg_inv_x8k2_plan_range">
+                            <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                            <span class="epg_inv_x8k2_range_value">$100 - $499</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_plan_features">
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Daily Profit: 20%</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 24 hours</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-gift"></i>
+                            <span>Referral Bonus: 25%</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_calculator">
+                        <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="100"
+                            max="1000">
+                        <div class="epg_inv_x8k2_calc_result">
+                            <span>Potential Profit:</span>
+                            <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                        </div>
+                    </div>
+                    <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="epg_inv_x8k2_plan_card" data-plan="standard">
+                    <div class="epg_inv_x8k2_plan_header">
+                        <span class="epg_inv_x8k2_plan_badge">Standard plan</span>
+                        <h3 class="epg_inv_x8k2_plan_title">Advanced Trading</h3>
+                        <div class="epg_inv_x8k2_plan_range">
+                            <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                            <span class="epg_inv_x8k2_range_value">$500 - $2,999</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_plan_features">
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Daily Profit: 30%</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 24 hours</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-gift"></i>
+                            <span>Referral Bonus: 35%</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_calculator">
+                        <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="1000"
+                            max="5000">
+                        <div class="epg_inv_x8k2_calc_result">
+                            <span>Potential Profit:</span>
+                            <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                        </div>
+                    </div>
+                    <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="epg_inv_x8k2_plan_card" data-plan="premium">
+                    <div class="epg_inv_x8k2_plan_header">
+                        <span class="epg_inv_x8k2_plan_badge">Premium plan</span>
+                        <h3 class="epg_inv_x8k2_plan_title">Elite Trading</h3>
+                        <div class="epg_inv_x8k2_plan_range">
+                            <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                            <span class="epg_inv_x8k2_range_value">$3,000 - $9,999</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_plan_features">
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Daily Profit: 65%</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 48 hours</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-gift"></i>
+                            <span>Referral Bonus: 60%</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_calculator">
+                        <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="5000"
+                            max="20000">
+                        <div class="epg_inv_x8k2_calc_result">
+                            <span>Potential Profit:</span>
+                            <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                        </div>
+                    </div>
+                    <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+                </div>
+
+                <!-- Elite Plan -->
+                <div class="epg_inv_x8k2_plan_card" data-plan="elite">
+                    <div class="epg_inv_x8k2_plan_header">
+                        <span class="epg_inv_x8k2_plan_badge">Elite plan</span>
+                        <h3 class="epg_inv_x8k2_plan_title">Professional Trading</h3>
+                        <div class="epg_inv_x8k2_plan_range">
+                            <span class="epg_inv_x8k2_range_label">Investment Range</span>
+                            <span class="epg_inv_x8k2_range_value">$10,000 - $100,000</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_plan_features">
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Daily Profit: 80%</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 48 hours</span>
+                        </div>
+                        <div class="epg_inv_x8k2_feature">
+                            <i class="fas fa-gift"></i>
+                            <span>Referral Bonus: 72%</span>
+                        </div>
+                    </div>
+                    <div class="epg_inv_x8k2_calculator">
+                        <input type="number" class="epg_inv_x8k2_calc_input" placeholder="Enter amount" min="20000"
+                            max="100000">
+                        <div class="epg_inv_x8k2_calc_result">
+                            <span>Potential Profit:</span>
+                            <span class="epg_inv_x8k2_profit_value">$0.00</span>
+                        </div>
+                    </div>
+                    <button class="epg_inv_x8k2_invest_btn">Start Investment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="epg_inv_features_k7m2_wrapper">
+        <div class="epg_inv_features_k7m2_container">
+            <div class="epg_inv_features_k7m2_header">
+                <h2 class="epg_inv_features_k7m2_title">Why Choose Our Investment Platform</h2>
+                <p class="epg_inv_features_k7m2_subtitle">Experience the future of digital investing with our
+                    cutting-edge platform</p>
+            </div>
+
+            <div class="epg_inv_features_k7m2_stats_grid">
+                <div class="epg_inv_features_k7m2_stat_card">
+                    <div class="epg_inv_features_k7m2_stat_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="epg_inv_features_k7m2_stat_content">
+                        <span class="epg_inv_features_k7m2_stat_number" data-value="25000000">$25M+</span>
+                        <span class="epg_inv_features_k7m2_stat_label">Total Investments</span>
+                    </div>
+                </div>
+
+                <div class="epg_inv_features_k7m2_stat_card">
+                    <div class="epg_inv_features_k7m2_stat_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="epg_inv_features_k7m2_stat_content">
+                        <span class="epg_inv_features_k7m2_stat_number" data-value="12000">12,000+</span>
+                        <span class="epg_inv_features_k7m2_stat_label">Active Investors</span>
+                    </div>
+                </div>
+
+                <div class="epg_inv_features_k7m2_stat_card">
+                    <div class="epg_inv_features_k7m2_stat_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <div class="epg_inv_features_k7m2_stat_content">
+                        <span class="epg_inv_features_k7m2_stat_number" data-value="980">980%</span>
+                        <span class="epg_inv_features_k7m2_stat_label">Annual Growth</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="epg_inv_features_k7m2_grid">
+                <div class="epg_inv_features_k7m2_card">
+                    <div class="epg_inv_features_k7m2_card_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="epg_inv_features_k7m2_card_title">Bank-Grade Security</h3>
+                    <p class="epg_inv_features_k7m2_card_text">Advanced encryption and multi-factor authentication
+                        protect your investments 24/7</p>
+                </div>
+
+                <div class="epg_inv_features_k7m2_card">
+                    <div class="epg_inv_features_k7m2_card_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="epg_inv_features_k7m2_card_title">Smart Portfolio</h3>
+                    <p class="epg_inv_features_k7m2_card_text">AI-powered investment strategies optimize your returns
+                        based on market trends</p>
+                </div>
+
+                <div class="epg_inv_features_k7m2_card">
+                    <div class="epg_inv_features_k7m2_card_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="epg_inv_features_k7m2_card_title">Instant Withdrawals</h3>
+                    <p class="epg_inv_features_k7m2_card_text">Access your funds instantly with our automated withdrawal
+                        system</p>
+                </div>
+
+                <div class="epg_inv_features_k7m2_card">
+                    <div class="epg_inv_features_k7m2_card_icon">
+                        <svg viewBox="0 0 24 24" class="epg_inv_features_k7m2_icon">
+                            <path
+                                d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 9h-2V5h2v6zm0 4h-2v-2h2v2z"
+                                fill="currentColor" />
+                        </svg>
+                    </div>
+                    <h3 class="epg_inv_features_k7m2_card_title">24/7 Support</h3>
+                    <p class="epg_inv_features_k7m2_card_text">Expert assistance available round the clock through live
+                        chat and email</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="epg_trade_x7f9_footer_container">
+        <div class="epg_trade_x7f9_wave_element">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="0.2"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="epg_trade_x7f9_content_wrapper">
+            <div class="epg_trade_x7f9_company_section">
+                <div class="epg_trade_x7f9_logo_wrapper">
+                    <!-- <img src="logo.png" alt="Logo" class="epg_trade_x7f9_logo_image"> -->
+                    <div class="epg_trade_x7f9_logo_glow_effect"></div>
+                </div>
+                <h3 class="epg_trade_x7f9_company_title">Elivate Prime Group</h3>
+                <p class="epg_trade_x7f9_company_slogan">Empowering Your Financial Journey</p>
+            </div>
+
+            <div class="epg_trade_x7f9_grid_layout">
+                <div class="epg_trade_x7f9_quick_access_panel">
+                    <h4>Navigation Hub</h4>
+                    <a href="about.html">About Us
+                    </a>
+                    <a href="how-it-works.html">getting started</a>
+                    <a href="https://coinmarketcap.com/" target="_blank">Market Analysis</a>
+                    <a href="faq.html">help center</a>
+                       <a href="affliate.html">our affliate program</a>
+                    <a href="live-earnings.html">Live Earnings</a>
+                    <a href="contact.html">Support Center</a>
+                </div>
+
+                <div class="epg_trade_x7f9_metrics_panel">
+                    <h4>Market Metrics</h4>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Global Traders</span>
+                        <span class="epg_trade_x7f9_metric_value">75K+</span>
+                    </div>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Trading Volume</span>
+                        <span class="epg_trade_x7f9_metric_value">$3.8M</span>
+                    </div>
+                </div>
+
+                <div class="epg_trade_x7f9_contact_panel">
+                    <h4>Connect With Us</h4>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-envelope"></i>
+                        <span>support@elivateprimegroup.com</span>
+                    </div>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-phone"></i>
+                        <span>+44 7407 2293752 EPG TRADE</span>
+                    </div>
+                    <a href="https://wa.me/447407293752" target="_blank" class="epg_trade_x7f9_contact_item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+44 7407 2293752</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="epg_trade_x7f9_footer_base">
+                <div class="epg_trade_x7f9_social_container">
+                    
+                    <a href="https://t.me/+Txzyv5RNcxwxMGQ1" target="_blank" class="epg_trade_x7f9_social_link"><i class="fab fa-telegram"></i></a>
+                   
+                </div>
+                <p class="epg_trade_x7f9_copyright_text">© 2025 Elivate Prime Group. Secure Trading Solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../script/loader.js"></script>
+    <script src="../script/investment-plan.js"></script>
+    <script src="../script/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+
+</html>

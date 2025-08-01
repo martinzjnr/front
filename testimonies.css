@@ -1,0 +1,543 @@
+.epg_testimonials_hero_x8p4 {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  position: relative;
+  overflow: hidden;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.epg_hero_overlay_m2k9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(76, 175, 80, 0.1),
+    transparent 60%
+  );
+}
+
+.epg_hero_content_v5h3 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.epg_hero_title_q7w2 {
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ffffff, #4caf50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.epg_hero_subtitle_n3j6 {
+  font-size: 18px;
+  color: #888888;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.epg_trust_stats_l9t5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.epg_stat_card_y4h8 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.epg_stat_card_y4h8:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.epg_stat_number_f2k7 {
+  font-size: 36px;
+  color: #4caf50;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.epg_stat_label_u6m1 {
+  font-size: 14px;
+  color: #888888;
+}
+
+.epg_featured_review_b8x4 {
+  margin-top: 48px;
+}
+
+.epg_review_card_h7p2 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.epg_review_header_t5n9 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.epg_reviewer_avatar_k2m6 {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4caf50;
+}
+
+.epg_reviewer_info_w4j8 {
+  margin-left: 16px;
+  flex-grow: 1;
+}
+
+.epg_reviewer_name_q9l5 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.epg_reviewer_title_z3x7 {
+  color: #888888;
+  font-size: 14px;
+}
+
+.epg_rating_stars_g6y4 {
+  color: #4caf50;
+  font-size: 20px;
+}
+
+.epg_review_quote_c5r2 {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+}
+
+.epg_review_quote_c5r2::before,
+.epg_review_quote_c5r2::after {
+  content: '"';
+  color: #4caf50;
+  font-size: 48px;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.epg_review_quote_c5r2::before {
+  left: -20px;
+  top: -20px;
+}
+
+.epg_review_quote_c5r2::after {
+  right: -20px;
+  bottom: -40px;
+}
+
+.epg_scroll_indicator_r7m3 {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  animation: bounce 2s infinite;
+}
+
+.epg_scroll_text_d9k4 {
+  color: #888888;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.epg_scroll_arrow_f3h6 {
+  width: 20px;
+  height: 20px;
+  border-right: 2px solid #4caf50;
+  border-bottom: 2px solid #4caf50;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 768px) {
+  .epg_hero_title_q7w2 {
+    font-size: 36px;
+  }
+
+  .epg_hero_subtitle_n3j6 {
+    font-size: 16px;
+  }
+
+  .epg_trust_stats_l9t5 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .epg_stat_card_y4h8 {
+    padding: 20px;
+  }
+
+  .epg_review_card_h7p2 {
+    padding: 24px;
+    margin: 0 20px;
+  }
+
+  .epg_review_quote_c5r2 {
+    font-size: 16px;
+  }
+}
+
+.epg_testimonials_slider_x9p5 {
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.epg_slider_container_m4k7 {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.epg_testimonial_swiper_h2n8 {
+  padding: 20px 40px 60px;
+}
+
+.epg_testimonial_slide_t6r4 {
+  height: auto;
+  padding: 10px;
+}
+
+.epg_testimonial_card_q8w3 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.epg_testimonial_card_q8w3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(76, 175, 80, 0.1);
+}
+
+.epg_user_profile_l5j9 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.epg_profile_image_y7h2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #4caf50;
+}
+
+.epg_profile_image_y7h2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.epg_user_info_k3m6 {
+  margin-left: 15px;
+}
+
+.epg_user_info_k3m6 h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.epg_user_info_k3m6 span {
+  color: #4caf50;
+  font-size: 14px;
+}
+
+.epg_rating_b9x4 {
+  color: #4caf50;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.epg_testimonial_text_f2p7 {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.epg_trading_stats_n7r2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.epg_trading_stats_n7r2 span {
+  color: #888888;
+  font-size: 14px;
+}
+
+/* Swiper Navigation Buttons */
+.epg_swiper_button_prev_c5k8,
+.epg_swiper_button_next_w4j6 {
+  color: #4caf50;
+}
+
+.epg_swiper_button_prev_c5k8:hover,
+.epg_swiper_button_next_w4j6:hover {
+  color: #45a049;
+}
+
+/* Swiper Pagination */
+.epg_swiper_pagination_z8h3 {
+  position: relative;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: #4caf50;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #4caf50;
+}
+
+@media (max-width: 768px) {
+  .epg_testimonials_slider_x9p5 {
+    padding: 40px 10px;
+  }
+
+  .epg_testimonial_swiper_h2n8 {
+    padding: 10px 30px 50px;
+  }
+
+  .epg_testimonial_card_q8w3 {
+    padding: 20px;
+  }
+
+  .epg_testimonial_text_f2p7 {
+    font-size: 14px;
+  }
+
+  .epg_trading_stats_n7r2 {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.epg_testimonial_grid_x7p3 {
+  background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.epg_grid_container_m2k8 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.epg_success_stats_h4n9 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.epg_stat_item_t6r2 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.epg_stat_item_t6r2:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.epg_stat_number_q9w4 {
+  font-size: 36px;
+  color: #4caf50;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.epg_stat_label_f5k7 {
+  color: #888888;
+  font-size: 16px;
+}
+
+.epg_testimonial_grid_y8m5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.epg_story_card_l3p6 {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.epg_story_card_l3p6:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(76, 175, 80, 0.1);
+}
+
+.epg_card_header_w7h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.epg_trader_info_k9n4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.epg_trader_photo_b5x8 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4caf50;
+}
+
+.epg_trader_info_k9n4 h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+}
+
+.epg_trader_info_k9n4 span {
+  color: #4caf9d;
+  font-size: 14px;
+}
+
+.epg_profit_badge_v2m7 {
+  background: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.epg_story_text_c4j9 {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.epg_trading_metrics_z6h3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.epg_metric_item_u8k4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.epg_metric_label_r7p2 {
+  color: #888888;
+  font-size: 12px;
+}
+
+.epg_metric_value_s5n9 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .epg_success_stats_h4n9 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .epg_stat_item_t6r2 {
+    padding: 20px;
+  }
+
+  .epg_story_card_l3p6 {
+    padding: 20px;
+  }
+
+  .epg_stat_number_q9w4 {
+    font-size: 28px;
+  }
+
+  .epg_stat_label_f5k7 {
+    font-size: 14px;
+  }
+}

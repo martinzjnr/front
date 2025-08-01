@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/live-earnings.css">
+    <link rel="stylesheet" href="../styles/loader.css">
+</head>
+
+<body>
+      <div class="loader-container" id="loader">
+        <div class="loader">
+            <svg class="crypto-icon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"/>
+                <path d="M50 25v50M35 40l15-15 15 15M35 60l15 15 15-15"/>
+            </svg>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <div class="logo-symbol">
+                    <!-- <span class="logo-hex"></span>
+                    <i class="fas fa-chart-line logo-icon"></i> -->
+                </div>
+            </a>
+
+            <div class="nav-mobile-actions">
+                <div class="nav-mobile-cta">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="./index.html" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="./investment-plans.html" class="nav-link">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Investment Plans</span>
+                    </a>
+                    <a href="how-it-works.html" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                    <a href="affliate.html" class="nav-link">
+                        <i class="fas fa-users"></i>
+                        <span>Affiliate Program</span>
+                    </a>
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Us</span>
+                    </a>
+                    <a href="faq.html" class="nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQs</span>
+                    </a>
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="testimonies.html" class="nav-link">
+                        <i class="fas fa-star"></i>
+                        <span>Testimonies</span>
+                    </a>
+                    <a href="live-earnings.html" class="nav-link nav-item-active">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Live Earnings</span>
+                    </a>
+
+                </div>
+                <div class="nav-cta-desktop">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- translaort -->
+    <div id="epg-google-translate" class="epg-translate-widget">
+        <div id="google_translate_element"></div>
+    </div>
+
+
+    <!-- button fixed -->
+
+
+    <div class="epg-mobile-cta-container" id="epgMobileCta">
+        <div class="epg-mobile-cta-blur"></div>
+        <div class="epg-mobile-cta-wrapper">
+            <a href="login.html" class="epg-mobile-cta-btn epg-login-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+            </a>
+            <a href="register.html" class="epg-mobile-cta-btn epg-register-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+                <div class="epg-btn-particles"></div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- logo sceting -->
+    <section class="logo-section">
+        <div class="logo-container">
+            <div class="logo-wrapper">
+                <div class="hexagon-logo">
+                    <svg viewBox="0 0 100 100">
+                        <polygon class="hex-bg" points="50 0, 93.3 25, 93.3 75, 50 100, 6.7 75, 6.7 25"></polygon>
+                        <path class="chart-icon" d="M30 70 L45 50 L60 65 L75 35"></path>
+                        <circle class="chart-point" cx="30" cy="70" r="3"></circle>
+                        <circle class="chart-point" cx="45" cy="50" r="3"></circle>
+                        <circle class="chart-point" cx="60" cy="65" r="3"></circle>
+                        <circle class="chart-point" cx="75" cy="35" r="3"></circle>
+                    </svg>
+                </div>
+                <div class="company-text">
+                    <h1>Elivate Prime Group</h1>
+                    <p>Advanced Trading Solutions</p>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="register.html" class="cta-button open-account">
+                    <span class="icon">👤</span>
+                    <span class="text">Open Account</span>
+                </a>
+                <a href="login.html" class="cta-button start-trading">
+                    <span class="icon">📈</span>
+                    <span class="text">Start Trading</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="epg_live_earnings_hero_x8p4">
+        <div class="epg_hero_container_m2k7">
+            <!-- Live Market Ticker -->
+            <div class="epg_market_ticker_h6n9">
+                <div class="epg_ticker_wrapper_t4r2" id="cryptoTicker"></div>
+            </div>
+
+            <!-- Main Stats Display -->
+            <div class="epg_main_stats_l9w5">
+                <h1 class="epg_hero_title_q7x3">Live Trading Earnings</h1>
+                <div class="epg_live_counter_b5k8">
+                    <span class="epg_counter_label_y2m6">Total Platform Earnings (24h)</span>
+                    <span class="epg_counter_value_f8h4" id="totalEarnings">$0</span>
+                </div>
+
+                <!-- Live Trading Stats Grid -->
+                <div class="epg_stats_grid_v3n7">
+                    <div class="epg_stat_card_p9c4">
+                        <div class="epg_stat_icon_k7j2">📈</div>
+                        <span class="epg_stat_value_w5r8" id="activeTrades">0</span>
+                        <span class="epg_stat_label_u6t9">Active Trades</span>
+                    </div>
+                    <div class="epg_stat_card_p9c4">
+                        <div class="epg_stat_icon_k7j2">👥</div>
+                        <span class="epg_stat_value_w5r8" id="activeTraders">0</span>
+                        <span class="epg_stat_label_u6t9">Live Traders</span>
+                    </div>
+                    <div class="epg_stat_card_p9c4">
+                        <div class="epg_stat_icon_k7j2">💰</div>
+                        <span class="epg_stat_value_w5r8" id="avgProfit">0%</span>
+                        <span class="epg_stat_label_u6t9">Avg. Profit</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Live Trading Feed -->
+            <div class="epg_live_feed_c8m5">
+                <h2 class="epg_feed_title_x4p7">Live Trading Activity</h2>
+                <div class="epg_feed_container_j2k6" id="tradeFeed"></div>
+            </div>
+        </div>
+
+        <!-- Floating Price Cards -->
+        <div class="epg_price_cards_y7h4" id="priceCards"></div>
+    </section>
+
+
+
+
+
+    <!-- Trading Performance Analytics Section -->
+    <section class="trading-analytics-xk47">
+        <div class="analytics-header-pj92">
+            <h2 class="section-title-vm83">Trading Performance Analytics</h2>
+            <div class="time-filter-ht64">
+                <button class="time-btn-qw21 active-yz95" data-period="day">24H</button>
+                <button class="time-btn-qw21" data-period="week">7D</button>
+                <button class="time-btn-qw21" data-period="month">30D</button>
+                <button class="time-btn-qw21" data-period="year">1Y</button>
+            </div>
+        </div>
+
+        <div class="analytics-grid-lm36">
+            <!-- Trading Volume Chart -->
+            <div class="chart-card-bc74">
+                <h3 class="chart-title-nw52">Trading Volume</h3>
+                <canvas id="volumeChart-jk83" class="chart-canvas-ux91"></canvas>
+                <div class="chart-stats-wy47">
+                    <div class="stat-item-fq28">
+                        <span class="stat-label-tp63">24h Volume</span>
+                        <span class="stat-value-hm92">$12.5M</span>
+                    </div>
+                    <div class="stat-item-fq28">
+                        <span class="stat-label-tp63">Growth</span>
+                        <span class="stat-value-hm92 positive-yh82">+18.2%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profit Distribution -->
+            <div class="chart-card-bc74">
+                <h3 class="chart-title-nw52">Profit Distribution</h3>
+                <canvas id="profitChart-vt47" class="chart-canvas-ux91"></canvas>
+                <div class="chart-stats-wy47">
+                    <div class="stat-item-fq28">
+                        <span class="stat-label-tp63">Avg. ROI</span>
+                        <span class="stat-value-hm92">15.8%</span>
+                    </div>
+                    <div class="stat-item-fq28">
+                        <span class="stat-label-tp63">Success Rate</span>
+                        <span class="stat-value-hm92">92.3%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Traders Ranking -->
+            <div class="ranking-card-kp38">
+                <h3 class="ranking-title-bx74">Top Traders</h3>
+                <div class="traders-list-zq92" id="topTradersList-mt63"></div>
+            </div>
+
+            <!-- Asset Distribution -->
+            <div class="chart-card-bc74">
+                <h3 class="chart-title-nw52">Asset Distribution</h3>
+                <canvas id="assetChart-rw56" class="chart-canvas-ux91"></canvas>
+                <div class="asset-legend-cx83" id="assetLegend-pq47"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="epg_trade_x7f9_footer_container">
+        <div class="epg_trade_x7f9_wave_element">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="0.2"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="epg_trade_x7f9_content_wrapper">
+            <div class="epg_trade_x7f9_company_section">
+                <div class="epg_trade_x7f9_logo_wrapper">
+                    <!-- <img src="logo.png" alt="Logo" class="epg_trade_x7f9_logo_image"> -->
+                    <div class="epg_trade_x7f9_logo_glow_effect"></div>
+                </div>
+                <h3 class="epg_trade_x7f9_company_title">Elivate Prime Group</h3>
+                <p class="epg_trade_x7f9_company_slogan">Empowering Your Financial Journey</p>
+            </div>
+
+            <div class="epg_trade_x7f9_grid_layout">
+                <div class="epg_trade_x7f9_quick_access_panel">
+                    <h4>Navigation Hub</h4>
+                    <a href="about.html">About Us
+                    </a>
+                    <a href="how-it-works.html">getting started</a>
+                    <a href="https://coinmarketcap.com/" target="_blank">Market Analysis</a>
+                    <a href="faq.html">help center</a>
+                       <a href="affliate.html">our affliate program</a>
+                    <a href="live-earnings.html">Live Earnings</a>
+                    <a href="contact.html">Support Center</a>
+                </div>
+
+                <div class="epg_trade_x7f9_metrics_panel">
+                    <h4>Market Metrics</h4>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Global Traders</span>
+                        <span class="epg_trade_x7f9_metric_value">75K+</span>
+                    </div>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Trading Volume</span>
+                        <span class="epg_trade_x7f9_metric_value">$3.8M</span>
+                    </div>
+                </div>
+
+                <div class="epg_trade_x7f9_contact_panel">
+                    <h4>Connect With Us</h4>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-envelope"></i>
+                        <span>support@elivateprimegroup.com</span>
+                    </div>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-phone"></i>
+                        <span>+44 7407 2293752 EPG TRADE</span>
+                    </div>
+                    <a href="https://wa.me/447407293752" target="_blank" class="epg_trade_x7f9_contact_item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+44 7407 2293752</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="epg_trade_x7f9_footer_base">
+                <div class="epg_trade_x7f9_social_container">
+                    
+                    <a href="https://t.me/+Txzyv5RNcxwxMGQ1" target="_blank" class="epg_trade_x7f9_social_link"><i class="fab fa-telegram"></i></a>
+                   
+                </div>
+                <p class="epg_trade_x7f9_copyright_text">© 2025 Elivate Prime Group. Secure Trading Solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../script/loader.js"></script>
+    <script src="../script/live-earnings.js"></script>
+    <script src="../script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/testimonies.css">
+    <link rel="stylesheet" href="../styles/loader.css">
+</head>
+
+<body>
+      <div class="loader-container" id="loader">
+        <div class="loader">
+            <svg class="crypto-icon" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"/>
+                <path d="M50 25v50M35 40l15-15 15 15M35 60l15 15 15-15"/>
+            </svg>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <div class="logo-symbol">
+                    <!-- <span class="logo-hex"></span>
+                    <i class="fas fa-chart-line logo-icon"></i> -->
+                </div>
+            </a>
+
+            <div class="nav-mobile-actions">
+                <div class="nav-mobile-cta">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <button class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="./index.html" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="./investment-plans.html" class="nav-link">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Investment Plans</span>
+                    </a>
+                    <a href="how-it-works.html" class="nav-link">
+                        <i class="fas fa-cogs"></i>
+                        <span>How It Works</span>
+                    </a>
+                    <a href="affliate.html" class="nav-link">
+                        <i class="fas fa-users"></i>
+                        <span>Affiliate Program</span>
+                    </a>
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About Us</span>
+                    </a>
+                    <a href="faq.html" class="nav-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQs</span>
+                    </a>
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="testimonies.html" class="nav-link nav-item-active">
+                        <i class="fas fa-star"></i>
+                        <span>Testimonies</span>
+                    </a>
+                    <a href="live-earnings.html" class="nav-link">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Live Earnings</span>
+                    </a>
+                  
+                </div>
+                <div class="nav-cta-desktop">
+                    <a href="login.html" class="nav-cta-btn login-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="register.html" class="nav-cta-btn register-btn">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Register</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- translaort -->
+    <div id="epg-google-translate" class="epg-translate-widget">
+        <div id="google_translate_element"></div>
+    </div>
+
+
+    <!-- button fixed -->
+
+
+    <div class="epg-mobile-cta-container" id="epgMobileCta">
+        <div class="epg-mobile-cta-blur"></div>
+        <div class="epg-mobile-cta-wrapper">
+            <a href="login.html" class="epg-mobile-cta-btn epg-login-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+            </a>
+            <a href="register.html" class="epg-mobile-cta-btn epg-register-btn">
+                <div class="epg-btn-content">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </div>
+                <div class="epg-btn-shine"></div>
+                <div class="epg-btn-particles"></div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- logo sceting -->
+    <section class="logo-section">
+        <div class="logo-container">
+            <div class="logo-wrapper">
+                <div class="hexagon-logo">
+                    <svg viewBox="0 0 100 100">
+                        <polygon class="hex-bg" points="50 0, 93.3 25, 93.3 75, 50 100, 6.7 75, 6.7 25"></polygon>
+                        <path class="chart-icon" d="M30 70 L45 50 L60 65 L75 35"></path>
+                        <circle class="chart-point" cx="30" cy="70" r="3"></circle>
+                        <circle class="chart-point" cx="45" cy="50" r="3"></circle>
+                        <circle class="chart-point" cx="60" cy="65" r="3"></circle>
+                        <circle class="chart-point" cx="75" cy="35" r="3"></circle>
+                    </svg>
+                </div>
+                <div class="company-text">
+                    <h1>Elivate Prime Group</h1>
+                    <p>Advanced Trading Solutions</p>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="register.html" class="cta-button open-account">
+                    <span class="icon">👤</span>
+                    <span class="text">Open Account</span>
+                </a>
+                <a href="login.html" class="cta-button start-trading">
+                    <span class="icon">📈</span>
+                    <span class="text">Start Trading</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="epg_testimonials_hero_x8p4">
+        <div class="epg_hero_overlay_m2k9"></div>
+
+        <div class="epg_hero_content_v5h3">
+            <h1 class="epg_hero_title_q7w2">What Our Traders Say</h1>
+            <p class="epg_hero_subtitle_n3j6">Join thousands of successful traders who trust Elivate Prime Group</p>
+
+            <div class="epg_trust_stats_l9t5">
+                <div class="epg_stat_card_y4h8">
+                    <span class="epg_stat_number_f2k7" id="tradersCount">0</span>
+                    <span class="epg_stat_label_u6m1">Active Traders</span>
+                </div>
+                <div class="epg_stat_card_y4h8">
+                    <span class="epg_stat_number_f2k7" id="satisfactionRate">0</span>
+                    <span class="epg_stat_label_u6m1">Satisfaction Rate</span>
+                </div>
+                <div class="epg_stat_card_y4h8">
+                    <span class="epg_stat_number_f2k7" id="tradingVolume">$0</span>
+                    <span class="epg_stat_label_u6m1">Monthly Volume</span>
+                </div>
+            </div>
+
+            <!-- <div class="epg_featured_review_b8x4">
+                <div class="epg_review_card_h7p2">
+                    <div class="epg_review_header_t5n9">
+                        <img src="path/to/avatar.jpg" alt="Featured Trader" class="epg_reviewer_avatar_k2m6">
+                        <div class="epg_reviewer_info_w4j8">
+                            <h3 class="epg_reviewer_name_q9l5">Alex Thompson</h3>
+                            <p class="epg_reviewer_title_z3x7">Professional Crypto Trader</p>
+                        </div>
+                        <div class="epg_rating_stars_g6y4">
+                            ★★★★★
+                        </div>
+                    </div>
+                   
+                </div>
+            </div> -->
+        </div>
+
+        <!-- <div class="epg_scroll_indicator_r7m3">
+            <span class="epg_scroll_text_d9k4">Scroll to see more stories</span>
+            <div class="epg_scroll_arrow_f3h6"></div>
+        </div> -->
+    </section>
+
+
+
+    <section class="epg_testimonials_slider_x9p5">
+        <div class="epg_slider_container_m4k7">
+            <!-- Swiper container -->
+            <div class="swiper epg_testimonial_swiper_h2n8">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial Slide 1 -->
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-8.jpg" alt="John Doe">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3>Sofia Martinez</h3>
+                                    <span>Crypto Day Trader</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "The trading insights and platform reliability at Elivate Prime Group have been
+                                exceptional. I've seen a significant improvement in my trading performance."
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Trading Since: 2021</span>
+                                <span>Success Rate: 89%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Slide 2 -->
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-9.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3> Daniel Otieno</h3>
+                                    <span> Beginner Investor</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "Before Elivate Prime Group, I was skeptical about online investments. Now, I’ve seen
+                                steady profits and learned so much through their guidance. Truly a trusted platform!"
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>First $3,000 saved in 4 months</span>
+                                <span>Success Rate: 92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-5.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3>Sarah Chen</h3>
+                                    <span>Portfolio Manager</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "The advanced trading tools and responsive support team have made my trading journey
+                                seamless and profitable."
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Trading Since: 2020</span>
+                                <span>Success Rate: 92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-6.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3> Isabella Rojas</h3>
+                                    <span>Passive Earner</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "I love how professional and responsive the team at Elivate Prime Group is. My
+                                withdrawals are smooth, and the daily market tips are a bonus. Highly recommended!"
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Earns weekly ROI from auto-trading bots</span>
+                                <span>Success Rate: 82%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-7.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3> Matteo Bianchi</h3>
+                                    <span>Pro Forex Trader</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "As a forex trader for years, I’ve never felt more confident than with EPG. Their
+                                trading tools are top-notch, and my portfolio is growing steadily."
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Over 120 successful trades monthly</span>
+                                <span>Success Rate: 82%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-3.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3> Kwame Mensah </h3>
+                                    <span> Smart Portfolio Holder</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "EPG gives me peace of mind. They deliver what they promise, and my investments are
+                                finally working for me. Their educational content is amazing too!"
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Grew capital 5× in 6 months</span>
+                                <span>Success Rate: 88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-4.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3> Priya Nair </h3>
+                                    <span> Crypto Newbie</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "Elivate Prime Group is more than an investment platform – it's a financial education
+                                hub. I’ve grown both in knowledge and profits since joining."
+
+
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span> Learned and earned with $500 startup</span>
+                                <span>Success Rate: 89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-1.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3>Lucas Meyer </h3>
+                                    <span> Diversified Trader</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "Professionalism, transparency, and excellent customer service – that’s what I get from
+                                Elivate Prime Group. I trust them completely."
+
+
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Manages stocks, forex, and crypto in one wallet
+                                </span>
+                                <span>Success Rate: 81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide epg_testimonial_slide_t6r4">
+                        <div class="epg_testimonial_card_q8w3">
+                            <div class="epg_user_profile_l5j9">
+                                <div class="epg_profile_image_y7h2">
+                                    <img src="../img/t-2.jpg" alt="Sarah Chen">
+                                </div>
+                                <div class="epg_user_info_k3m6">
+                                    <h3>Sarah Thompson </h3>
+                                    <span> Diversified Trader</span>
+                                </div>
+                            </div>
+                            <div class="epg_rating_b9x4">★★★★★</div>
+                            <p class="epg_testimonial_text_f2p7">
+                                "I’ve dealt with many platforms before, but none has been as consistent and trustworthy
+                                as EPG. My experience has been smooth from day one."
+
+
+                            </p>
+                            <div class="epg_trading_stats_n7r2">
+                                <span>Withdraws over $5,000 monthly
+                                </span>
+                                <span>Success Rate: 81%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more slides as needed -->
+                </div>
+
+                <!-- Navigation buttons -->
+                <div class="epg_swiper_button_prev_c5k8 swiper-button-prev"></div>
+                <div class="epg_swiper_button_next_w4j6 swiper-button-next"></div>
+
+                <!-- Pagination -->
+                <div class="epg_swiper_pagination_z8h3 swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="epg_testimonial_grid_x7p3">
+        <div class="epg_grid_container_m2k8">
+            <div class="epg_success_stats_h4n9">
+                <div class="epg_stat_item_t6r2" data-value="15M+">
+                    <span class="epg_stat_number_q9w4">0</span>
+                    <span class="epg_stat_label_f5k7">Trading Volume</span>
+                </div>
+                <div class="epg_stat_item_t6r2" data-value="98%">
+                    <span class="epg_stat_number_q9w4">0</span>
+                    <span class="epg_stat_label_f5k7">Client Satisfaction</span>
+                </div>
+                <div class="epg_stat_item_t6r2" data-value="24/7">
+                    <span class="epg_stat_number_q9w4">24/7</span>
+                    <span class="epg_stat_label_f5k7">Support Available</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="epg_trade_x7f9_footer_container">
+        <div class="epg_trade_x7f9_wave_element">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="0.2"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="epg_trade_x7f9_content_wrapper">
+            <div class="epg_trade_x7f9_company_section">
+                <div class="epg_trade_x7f9_logo_wrapper">
+                    <!-- <img src="logo.png" alt="Logo" class="epg_trade_x7f9_logo_image"> -->
+                    <div class="epg_trade_x7f9_logo_glow_effect"></div>
+                </div>
+                <h3 class="epg_trade_x7f9_company_title">Elivate Prime Group</h3>
+                <p class="epg_trade_x7f9_company_slogan">Empowering Your Financial Journey</p>
+            </div>
+
+            <div class="epg_trade_x7f9_grid_layout">
+                <div class="epg_trade_x7f9_quick_access_panel">
+                    <h4>Navigation Hub</h4>
+                    <a href="about.html">About Us
+                    </a>
+                    <a href="how-it-works.html">getting started</a>
+                    <a href="https://coinmarketcap.com/" target="_blank">Market Analysis</a>
+                    <a href="faq.html">help center</a>
+                       <a href="affliate.html">our affliate program</a>
+                    <a href="live-earnings.html">Live Earnings</a>
+                    <a href="contact.html">Support Center</a>
+                </div>
+
+                <div class="epg_trade_x7f9_metrics_panel">
+                    <h4>Market Metrics</h4>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Global Traders</span>
+                        <span class="epg_trade_x7f9_metric_value">75K+</span>
+                    </div>
+                    <div class="epg_trade_x7f9_metric_item">
+                        <span class="epg_trade_x7f9_metric_label">Trading Volume</span>
+                        <span class="epg_trade_x7f9_metric_value">$3.8M</span>
+                    </div>
+                </div>
+
+                <div class="epg_trade_x7f9_contact_panel">
+                    <h4>Connect With Us</h4>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-envelope"></i>
+                        <span>support@elivateprimegroup.com</span>
+                    </div>
+                    <div class="epg_trade_x7f9_contact_item">
+                        <i class="fas fa-phone"></i>
+                        <span>+44 7407 2293752 EPG TRADE</span>
+                    </div>
+                    <a href="https://wa.me/447407293752" target="_blank" class="epg_trade_x7f9_contact_item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>+44 7407 2293752</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="epg_trade_x7f9_footer_base">
+                <div class="epg_trade_x7f9_social_container">
+                    
+                    <a href="https://t.me/+Txzyv5RNcxwxMGQ1" target="_blank" class="epg_trade_x7f9_social_link"><i class="fab fa-telegram"></i></a>
+                   
+                </div>
+                <p class="epg_trade_x7f9_copyright_text">© 2025 Elivate Prime Group. Secure Trading Solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../script/loader.js"></script>
+    <script src="../script/testimonies.js"></script>
+    <script src="../script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+
+</html>

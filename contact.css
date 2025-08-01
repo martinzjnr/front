@@ -1,0 +1,347 @@
+.contact_support_x7392 {
+  background: #0d1117;
+  padding: 5rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.support_container_y8273 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.support_header_z9384 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.support_title_a4738 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.support_subtitle_b2937 {
+  font-size: 1.25rem;
+  color: #8f9bb3;
+}
+
+.support_cards_c8273 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.support_card_d3847 {
+  background: #1a1f29;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  border: 1px solid #2a303c;
+  transition: all 0.3s ease;
+}
+
+.support_card_d3847:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card_icon_f4738 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 2.5rem;
+}
+
+.whatsapp_card_e9283 .card_icon_f4738 {
+  background: rgba(37, 211, 102, 0.1);
+  color: #25d366;
+}
+
+.telegram_card_i7384 .card_icon_f4738,
+.telegram_admin_card_k8273 .card_icon_f4738 {
+  background: rgba(0, 136, 204, 0.1);
+  color: #0088cc;
+}
+
+.support_card_d3847 h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.support_card_d3847 p {
+  color: #8f9bb3;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.support_link_g2937 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.whatsapp_link_h8273 {
+  background: #25d366;
+  color: #ffffff;
+}
+
+.whatsapp_link_h8273:hover {
+  background: #22c15e;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+}
+
+.telegram_link_j2937 {
+  background: #0088cc;
+  color: #ffffff;
+}
+
+.telegram_link_j2937:hover {
+  background: #0077b3;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 136, 204, 0.2);
+}
+
+.support_note_l4738 {
+  background: #1a1f29;
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #2a303c;
+}
+
+.note_icon_m9283 {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 183, 77, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: #ffb74d;
+  flex-shrink: 0;
+}
+
+.support_note_l4738 p {
+  color: #8f9bb3;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .support_cards_c8273 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .support_title_a4738 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_support_x7392 {
+    padding: 3rem 1.5rem;
+  }
+
+  .support_cards_c8273 {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .support_title_a4738 {
+    font-size: 2.5rem;
+  }
+
+  .support_subtitle_b2937 {
+    font-size: 1.1rem;
+  }
+
+  .support_note_l4738 {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_support_x7392 {
+    padding: 2rem 1rem;
+  }
+
+  .support_title_a4738 {
+    font-size: 2rem;
+  }
+
+  .support_card_d3847 {
+    padding: 2rem 1.5rem;
+  }
+
+  .card_icon_f4738 {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .support_link_g2937 {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.epg_contact_form_section_x92j {
+  padding: 40px 20px;
+  background: #1a1a1a;
+  min-height: 100vh;
+}
+
+.epg_form_container_k8m2 {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #242424;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.epg_form_header_p3n5 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.epg_form_header_p3n5 h2 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.epg_form_header_p3n5 p {
+  color: #888888;
+  font-size: 16px;
+}
+
+.epg_form_group_t5r9 {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.epg_form_input_w2q8 {
+  width: 100%;
+  padding: 16px;
+  background: #2a2a2a;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.epg_form_input_w2q8:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.epg_form_label_m4x6 {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888888;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.epg_form_input_w2q8:focus ~ .epg_form_label_m4x6,
+.epg_form_input_w2q8:not(:placeholder-shown) ~ .epg_form_label_m4x6 {
+  top: -12px;
+  left: 12px;
+  font-size: 12px;
+  background: #242424;
+  padding: 0 4px;
+  color: #4caf50;
+}
+
+.epg_textarea_h9k1 {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.epg_textarea_h9k1 ~ .epg_form_label_m4x6 {
+  top: 16px;
+  transform: none;
+}
+
+.epg_submit_btn_v6n3 {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #4caf50, #45a049);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.epg_submit_btn_v6n3:hover {
+  background: linear-gradient(135deg, #45a049, #4caf50);
+  transform: translateY(-2px);
+}
+
+.epg_btn_icon_f8k4 {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.epg_submit_btn_v6n3:hover .epg_btn_icon_f8k4 {
+  transform: translateX(4px);
+}
+
+@media (max-width: 480px) {
+  .epg_form_container_k8m2 {
+    padding: 20px;
+  }
+
+  .epg_form_header_p3n5 h2 {
+    font-size: 24px;
+  }
+
+  .epg_form_header_p3n5 p {
+    font-size: 14px;
+  }
+
+  .epg_form_input_w2q8,
+  .epg_submit_btn_v6n3 {
+    font-size: 14px;
+  }
+}
